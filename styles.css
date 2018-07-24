@@ -786,7 +786,7 @@ block 6
 	letter-spacing: 1.8px;
 	text-align: center;
 	vertical-align: top;
-	margin: 0px;
+	margin: 0px auto;
 }
 
 .pricing_title {
@@ -835,21 +835,84 @@ block 6
 	font-weight: 700;
 }
 
+.section_8_box:hover .pricing_title,
+.section_8_box:hover .pricing_btn {
+	background-color: #e74c3c;
+} 
+
 .price:hover span {
 	color: #e74c3c;
 } 
+
 .pricing_text {
 	width: 205px;
-	height: 135px;
+	/*height: 135px;*/
 	color: #999999;
 	font-family: "Open Sans - Semibold";
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 40px;
+	margin: 0 auto 34px;
+}
+.pricing_btn {
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #999999;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.14px;
+	padding: 18px 30px;
+	border-radius: 5px;
 }
 /*=====================
   9 block
   =====================*/
+.section_9 {
+	position: relative;
+	min-height: 1077px;
+	background-image: url('./images/Backteam.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-align: center;
+	background-size: cover;
+}
+
+.section_9 h3 {
+	color: #ffffff;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	/*margin: 0px auto;*/
+}
+.section_9_descr {
+	color: #f4f5f9;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+}
+.red_curve {
+	position: absolute;
+	transform: translateX(-50%);
+	top: 0;
+	left: 50%;
+	width: 2050px;
+	height: calc(100% - 92px);
+	z-index: 0;
+	margin-top: 92px;
+
+}
+.m_width.team {
+	position: relative;
+	z-index: 1;
+}
+.pic {
+	position: absolute;
+}
 
 
 
