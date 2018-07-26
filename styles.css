@@ -919,7 +919,32 @@ block 6
 /*=====================
   10 block
   =====================*/
+.section_10 {
+	text-align: center;
+	vertical-align: top;
 
+}
+.style_circle.sixth {
+	margin-top: 28px;
+}
+.logo_conteiner {
+	margin-top: 67px;
+	width: calc(100% - 120px) / 5;
+	/*position: relative;
+	display: inline-block;
+	vertical-align: top;
+*/
+	
+}
+.logo {
+	width: 210px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+.logo:nth-child(5) {
+	margin-right: 0px;
+}
 
 
 /*=====================
